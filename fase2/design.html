@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+      <h3>SINTAXIS Y SELECTORES CSS INTERACCION HUMANO ORDENADOR</h3> 
+   </header>
+   <nav>
+      <ul> <h3>inicio</h3> </ul>
+   
+        <li>
+            <h3>SINTAXIS Y SELECTORES CSS</h3> 
+            <ul>
+                    <h4>CONCEPTO Y SINTAXIS</h4> 
+                 <li>
+                     <h4>TIPOS DE SELECTORES</h4>
+                   <ul>
+                      <h4>SELECTOR DE TIPO </h4>
+                        <h4>SELECTOR UNIVERSAL</h4> 
+                         <h4>SELECTOR DE CLASE</h4> 
+                         <h4> SELECTOR DE ID</h4>
+                        <h4>SELECTOR DE ATRIBUTO</h4>  
+                   </ul>
+                     </li> 
+                            <li>
+                               <h2>RECURSOS</h2>
+                                    <ul>
+                                      <h4>VIDEOS</h4>
+                                       <h4>PDF</h4>
+                                    </ul>
+                            </li>
+                                    <li><h3>INTERACCION HUMANO ORDENADOR</h3>
+                                        <li>
+                                              <h2>RECURSOS</h2>
+                                                <h4>VIDEOS</h4>
+                                                <h4>PDF</h4>
+                                        </li>
+                                    </li>
+           </ul> 
+        </li>        
+ </nav> 
+</body>
+<section>
+    <h3>PROPOSITO</h3>
+    <p>
+        A RAÍZ DE LAS CONDICIONES EXTRAORDINARIAS QUE SE HAN GENERADO A POR LA PANDEMIA SE HA HECHO
+        NECESARIO LA APLICACIÓN DE METODOLOGÍAS QUE PERMITAN ACCEDER A LAS DIFERENTES FUENTES DE
+        CONOCIMIENTO; HACIENDO PROLIFERO EL AUGE DE LA EDUCACIÓN VIRTUAL.
+        EN NUESTRO CASO PRESENTAREMOS ALGUNAS HERRAMIENTAS UTILIZADAS PARA EL DESARROLLO
+        DE PÁGINAS WEB COMO SON LOS SELECTORES CSS QUE HACEN QUE LA INTERACCIÓN HUMANO ORDENADOR
+        SE REALICE DE MANERA MUCHO MÁS OBJETIVA
+    </p>
+</section>
+<article>
+<h3>SINTAXIS Y CONCEPTO</h3> 
+<h4> CONCEPTO</h4>
+En el codigo HTML se puede incluir una serie de etiquetas representando tanto la clase de
+elementos y secciones que queremos incluir como el estilo que queremos aplicar en
+las mismas Sin embargo se recomienda la aplicación de herramientas de código CSS
+Cordero, J. J. T. (2014). La guía definitiva del diseño web: Html, xhtml, css y herramientas de diseño. Juan Jesús Tortajada Cordero.
+
+El padre del CSS fue el científico hakon wium liel, quien en 1994 promovio la creación de las hojas
+de estilo en cascadacon el fin de crear paginas web mejor estructuradas y con una separación
+mas eficientede las distintas partes que conforman la estructura de desarrollo de la web.
+Cabrera, L. V. (2012). Introducción a CSS. Obtenido de https://www. cs. us. es/blogs/bd2013/files/2013/09/IntroducciónCSS. pdf.
+
+<h4>SINTAXIS</h4> 
+Están formadas por:
+Un selector.
+Una o varias parejas formadas por:
+<h5>Un atributo.</h5> 
+<h5>Valor del atributo.</h5> 
+  <li> 
+    El atributo y su valor están separados por dos puntos (:).
+    Cada pareja está separada por punto y coma (;).
+    Todas las parejas están encerradas entre llaves.
+  </li>
+Las hojas de estilo no son sensibles a mayúsculas, excepto aquellas partes que no controla CSS (valores de atributos id y class, nombres de fuentes, URL…)
+Móvil, P. D. (2017). Introducción a CSS. <br>
+<img src="img/sintaxis.png" alt=""><br>
+ <h3>TIPOS DE SELECTORES</h3> 
+<h4> Selector de tipo</h4>
+h1 { }
+Los selectores de etiqueta, también denominados selectores de tipo, son aquellos
+en los que se indica el nombre de la etiqueta HTML a la que se le asignará una propiedad CSS.
+Por ejemplo, podemos aplicar un tamaño de un 1 rem y un color azul a todos los encabezados h2
+
+<h4> Selector universal</h4>
+* { }
+El selector universal (*) es aquel que sirve para apuntar a todos los elementos HTML
+del documento. Por ejemplo, podríamos crear una regla en la que se defina que el tamaño de
+fuente de todos los elementos HTML del documento sea de 12px: Si estás comenzando a aprender CSS, puede que este selector te parezca muy útil. Sin embargo
+, te recomiendo que lo utilices lo menos posible, ya que puede darte problemas a medida
+que aumentan tus líneas de código CSS. En su lugar, es más adecuado que emplees selectores más específicos.
+
+<h4>Selector de clase y Selector de ID </h4> 
+.box { }
+#unique { }
+Como ya sabes, los elementos HTML pueden tener clases o identificadores, las cuales se definen dentro
+de las etiquetas HTML mediante las estructuras class=»nombre-clase» e id=»nombre-id».
+La utilidad principal de las clases e identificadores es la de posibilitar la selección de elementos
+concretos de HTML mediante CSS. Pongamos un ejemplo: En el anterior ejemplo, hemos asignado a todos
+los párrafos la clase mi-parrafo. A continuación, hemos definido mediante CSS que todos los elementos HTML
+que tengan esta clase tendrán un tamaño de 1 rem y un tipo de letra Times New Roman. Como se puede observar, el selector de clase se establece
+con la nomenclatura .nombre-clase, es decir, poniendo un punto y a continuación el nombre de la clase. Por otro lado,
+hemos asignado a cada uno de los párrafos un identificador. De esta manera, hemos indicado mediante CSS que el color de fuente del primer párrafo será negro,
+el del segundo verde y el del tercero azul. En este caso, el selector de id se establece con la sintaxis #nombre-id, es decir, poniendo una almohadilla y a continuación el nombre del identificador.
+
+<h4>Selector de atributo</h4> 
+a[title] { }
+Este tipo de selectores permiten apuntar a elementos HTML que contengan un determinado atributo.
+Se definen, como mínimo, definiendo entre corchetes el nombre del atributo al que queremos señalar, con la nomenclatura [nombre-atributo].
+hemos establecido que todos los elementos con el atributo «href» tengan un color naranja y no tengan una decoración predefinida.
+De esta manera, los tres enlaces que hemos definido adoptarían dichos estilos, ya que todos ellos tienen el atributo href.
+https://carontestudio.com/blog/que-son-los-selectores-css-y-que-tipos-existen/ <br>
+<img src="" alt="">
+<img src="img/tipos selectores" style="object-fit:scale-down; width:400px;height:500px;"/>
+</article>
+<br>
+<article>
+<h3>INTERACCION HUMANO ORDENADOR</h3> 
+Cuando se habla de la interacción entre las personas y la tecnología, es fácil perder el equilibrio y poner el énfasis bien en las personas o bien en la tecnología.
+Uno de los padres de la interacción persona-ordenador (IPO), Terry Winograd, afirma: “La interacción persona-ordenador es el tipo de disciplina que no es ni el estudio de los seres humanos, ni el estudio de la tecnología,
+sino más bien el puente entre ambos. Es por este motivo por lo que siempre hay que estar con un ojo puesto en la pregunta:
+¿qué puede hacer la tecnología? ¿Cómo se puede construir? ¿Cuáles son sus posibilidades? Y con el otro en: ¿qué hacen las personas y cómo utilizan la tecnología?
+¿Qué querrían hacer con ella? Si pierdes de vista alguno de estos aspectos, te equivocarás a la hora de diseñar... Creo que el reto es obtener
+el conocimiento tanto de la tecnología como de las personas para desarrollar cosas nuevas
+
+A la tecnología todavía le queda bastante camino por recorrer para llegar a ser invisible. Con el paso del tiempo la tecnología se ha vuelto omnipresente y aparece en muchos ámbitos de la vida de las personas.
+El reto del profesional de la IPO y la experiencia de usuario se ven reforzados por la relación entre las personas y la tecnología.
+Esta relación es un proceso dinámico que se retroalimenta. A medida que las personas piden a la tecnología
+que les proporcione la posibilidad de hacer cosas nuevas, la tecnología no sólo ofrece aquello que se le pide, sino que amplía las posibilidades de lo que se puede hacer,
+ofreciendo nuevas oportunidades. Aprovechar estas oportunidades genera que se puedan hacer cosas
+nuevas y esto provoca que se le vuelvan a plantear nuevas necesidades. Es un círculo que se retroalimenta, donde la tecnología empodera a las personas y donde el profesional de
+la IPO se ocupa de que sea la tecnología la que se adapte a las personas y no al contrario.
+Martínez, C. C., Garreta, M., Hassan, Y., Martínez, L., & Mor, E. (2011). Interacción persona-ordenador. UOC.
+<h4> ELEMENTOS DE LA IPO</h4>
+ <h4>LA INTERFASE DE USUARIO</h4> 
+Desde la perspectiva de la IPO, existe una clase de interfaces de especial interés, denominadas interfaces de usuario,
+cuya función es servir, en este caso, de superficie o espacio de interacción entre el ordenador y el usuario.
+En las interfaces de líneas de comandos, el usuario introduce comandos en forma de cadenas de texto (normalmente utilizando un teclado) y las respuestas
+del sistema son de naturaleza exclusivamente textual (por lo general a través de un monitor).
+Aunque se trata de uno de los tipos de interfaces con mayor historia, siguen encontrándose presentes en multitud de sistemas.
+Las interfaces gráficas de usuario posibilitan mayor número de estilos de interacción, como la selección de opciones
+en menús o el completado de formularios. Pero, sin duda, el estilo de interacción más característico de estas interfaces es la manipulación directa.
+Esto significa que el usuario puede seleccionar directamente un elemento en la interfaz (a través de algún dispositivo apuntador, como el ratón),
+puede moverlo y cambiarlo de lugar, minimizarlo o arrastrarlo hasta otro elemento para que interactúen.
+<h4>DISPOSITIVOS DE INTERFASE</h4> 
+La clasificación de los diferentes tipos de interfaces de usuario se encuentra directamente relacionada con los tipos de dispositivos
+de interfaz que pueden confluir. A continuación, haremos una revisión de estos dispositivos con el
+fin de obtener un primer acercamiento, aunque la revisión no será exhaustiva. * Dispositivos de salida
+Los dispositivos de salida tienen por función la transmisión de información del producto al usuario.
+<H4>Visuales 2D</H4> 
+A excepción de aquellas personas con alguna discapacidad visual como la ceguera, el sentido que más intensamente utilizamos
+las personas en nuestra vida cotidiana es el de la vista, dado que de todos los sentidos que posee el ser humano
+es el de mayor capacidad. En el uso e interacción con productos y sistemas ocurre exactamente lo mismo.
+Por eso, las pantallas representan el dispositivo de salida de mayor importancia en la transmisión de información
+del producto al usuario. Los ordenadores, teléfonos, relojes digitales, agendas electrónicas, cámaras digitales,
+videoconsolas o cajeros electrónicos, entre otros, son productos cotidianos que incluyen o emplean pantallas para trasmitir información
+La tecnología utilizada por las pantallas ha experimentado una gran evolución en las últimas décadas. Por ejemplo, los primeros monitores
+de ordenador que surgen en la década de 1980, eran monocromáticos y utilizaban tubos de rayos catódicos o CRT3 .
+Muy poco tiempo después, aparecen las primeras tarjetas gráficas y los monitores en color, que seguían nuevos estándares que definían
+un mayor número de colores visualizables y resoluciones (como CGA, EGA, VGA o SVGA). Actualmente, la gran mayoría
+de productos interactivos ya no emplean pantallas con tecnología CRT, sino que se sirven de pantallas con tecnologías LCD4 ,
+LED5 o PDP6 , lo que implica menor tamaño y mejor calidad de imagen.
+<H4>Visuales 3D</H4> 
+La visión estereoscópica o binocular es la capacidad del cerebro de integrar las dos imágenes diferentes
+que captan cada uno de los ojos; se trata de un mecanismo que nos facilita, entre otras cosas,
+detectar la distancia y profundidad de los elementos de una escena visual. Precisamente, sobre este funcionamiento
+se sustentan las tecnologías o dispositivos de salida que pretenden dotar de tridimensionalidad a la imagen representada.
+Otros de los dispositivos de salida con intención 3D que han gozado de un relativo éxito durante los últimos tiempos han sido los denominados cascos 3D.
+Los modelos binoculares incorporan una pantalla delante de cada ojo para así poder lograr ilusión de tridimensionalidad.
+<H4> Auditivos</H4>
+Son numerosos los productos interactivos que incorporan dispositivos de salida de audio, tales como altavoces o auriculares.
+Estos dispositivos se pueden emplear para transmitir contenido (como la música que escuchamos con un reproductor mp3),
+pero también para transmitir al usuario mensajes o advertencias del sistema. Este último uso resulta especialmente
+útil cuando el usuario no se encuentra mirando directamente la pantalla del producto (como, por ejemplo, si conducimos
+usando un sistema GPS) o cuando, aun mirando la pantalla, resulta necesario atraer la atención del usuario (como el sonido que acompaña a los mensajes de error o alerta del sistema).
+Además, existen casos en los que el audio representa el principal medio de comunicación con el usuario, como es el de productos que no
+tienen pantalla o el de los usuarios invidentes.
+<H4> Táctiles</H4>
+Existen muy diversos contextos en los que percibir información a través del tacto puede resultar de gran valor para el usuario.
+Imaginemos por ejemplo el caso de los usuarios invidentes. Como ya se ha comentado, estos usuarios emplean lectores de pantalla que reproducen texto
+por audio, pero también pueden servirse de otros dispositivos de tiflotecnología (tecnología para ciegos),
+como los dispositivos de salida braille: impresoras braille y líneas braille.
+<H4>DISPOSITIVOS DE ENTRADA</H4>
+<H4>El teclado</H4> 
+Actualmente, el teclado es el dispositivo de entrada más común en los ordenadores personales, que podemos definir
+como un conjunto de botones que se pueden activar individualmente o combinados al ejercer presión sobre ellos.
+<H4>Dispositivos apuntadores</H4> 
+clásicos Por dispositivos apuntadores nos referimos a aquellos dispositivos de entrada que permiten al usuario introducir
+información espacial. El ejemplo más representativo de este tipo de dispositivos es el ratón, cuyo movimiento sobre una superficie
+plana se traslada al movimiento del puntero en la pantalla. Las pantallas táctiles
+pueden emplear una gran variedad de tecnologías para la detección del contacto (como tecnología capacitiva, resistiva u óptica),
+aunque sin duda la característica que mayor impacto tiene en sus posibles usos y modos de interacción es si disponen o no de capacidad multitáctil.
+En otras palabras, si son capaces de reconocer múltiples puntos de contacto simultáneamente
+<H4>Dispositivos gestuales</H4> 
+Como ya se ha indicado, estrictamente hablando la mayoría de dispositivos de entrada descritos hasta el momento pueden considerarse
+dispositivos gestuales, ya que son capaces de detectar gestos o acciones físicas del usuario y trasladar esa información al sistema.
+En este apartado, sin embargo, por dispositivos gestuales nos referimos a aquellos avances tecnológicos más recientes,
+que permiten detectar una mayor diversidad de movimientos del usuario, en muchos casos sin que ni siquiera sea necesario el contacto directo
+entre el usuario y el dispositivo de entrada.
+<H4>El seguimiento visual</H4> 
+El término seguimiento visual12 hace referencia a un conjunto de tecnologías que permiten monitorizar y registrar la forma en la que miramos una escena o imagen:
+en qué zonas de la imagen fijamos nuestra atención, durante cuánto tiempo y en qué orden (Hassan Montero y Herrero Solana, 2007).
+Los actuales sistemas de seguimiento visual emplean cámaras de rayos infrarrojos13 proyectados hacia uno o ambos ojos del
+usuario e infieren la zona de la imagen a la que el usuario dirige la atención visual a partir de la rotación ocular.
+Martínez, C. C., Garreta, M., Hassan, Y., Martínez, L., & Mor, E. (2011). Interacción persona-ordenador. UOC. <br>
+<img src="" alt=""> <br>
+<img src="img/visores 3d.jpg" style="object-fit:scale-down; width:400px;height:500px;"/>
+</article>
+<h4>mi mockups</h4>
+<img src="img/mockup.jpg" style="object-fit:scale-down; width:400px;height:500px;"/>
+<footer>
+  <h5>LUIS FERNANDO ISAZA MARTINEZ correo electronico lufeisma@gmail.com</h5>
+</footer>
+</html>
